@@ -1,0 +1,25 @@
+{	// Following the recommendation posted by @nybon regarding auto-installing extensions
+	// https://stackoverflow.com/questions/35929746/automatically-install-extensions-in-vs-code
+
+	// List of extensions which should be recommended for users of this workspace.
+	"recommendations": [
+		"maptz.regionfolder"
+		,"coenraads.bracket-pair-colorizer"
+		,"formulahendry.code-runner"
+		,"streetsidesoftware.code-spell-checker"
+		,"ms-azuretools.vscode-docker"
+		,"dbaeumer.vscode-eslint"
+		,"knisterpeter.vscode-github"
+		,"ms-toolsai.jupyter"
+		,"ritwickdey.liveserver"
+		,"zhuangtongfa.material-theme"
+		,"ikuyadeu.r"
+		,"ms-vscode-remote.remote-wsl"
+		,"gruntfuggly.todo-tree"
+		,"shardulm94.trailing-spaces"
+		,"vscode-icons-team.vscode-icons"
+	],
+	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
+	"unwantedRecommendations": [
+	]
+}
