@@ -4,6 +4,7 @@
 	// List of extensions which should be recommended for users of this workspace.
 	"recommendations": [
 		"maptz.regionfolder"
+		,"python.dataScience.sendSelectionToInteractiveWindow": true
 		,"coenraads.bracket-pair-colorizer"
 		,"formulahendry.code-runner"
 		,"streetsidesoftware.code-spell-checker"
