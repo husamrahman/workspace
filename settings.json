@@ -1,0 +1,10 @@
+{
+    "python.pythonPath": "venv\\Scripts\\python.exe",
+    "python.linting.enabled": false,
+    "editor.showFoldingControls": "always",
+    "editor.folding": true,
+    "editor.foldingStrategy": "indentation",
+    "editor.minimap.enabled": false,
+    "git.ignoreLimitWarning": true,
+    "jupyter.textOutputLimit": 0,
+}
