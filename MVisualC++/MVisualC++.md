@@ -1,4 +1,4 @@
-## Installing Microsoft Visual C++ & Boost
+## Installing Microsoft Visual C++ & Boost (On Windows)
 Reference: https://github.com/blue-yonder/turbodbc/issues/236
 
 1. Install Microsoft Visual C++ Redistributable & Visual Sutdio: https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019
