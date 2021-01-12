@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "venv\\Scripts\\python.exe",
+    "jupyter.sendSelectionToInteractiveWindow":  true,
     "python.dataScience.sendSelectionToInteractiveWindow": true,
     "python.linting.enabled": false,
     "editor.showFoldingControls": "always",
