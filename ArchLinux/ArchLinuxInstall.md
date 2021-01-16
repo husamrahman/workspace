@@ -6,35 +6,59 @@ https://wiki.learnlinux.tv/index.php/How_to_Install_Arch_Linux_on_LVM
 
 Packages to download using pacman: 
 
-linux
-linux-headers 
-linux-lts
-linux-lts-headers 
+*linux
+*linux-headers 
+*linux-lts
+*linux-lts-headers 
+*lvm2
 
-grub
-efibootmgr
-nano
-base-devel 
-bluez
-bluez-utils
+*grub
+*efibootmgr
+*dosfstools
+*os-prober
+*mtools
+*nano
+*dialog
+*base-devel 
+*bluez
+*bluez-utils
+*pulseaudio
+*pulseaudio-bluetooth
 
-virtualbox
-virtualbox-host-dkms
+*virtualbox-guest-utils
+*xf86-video-vmware
+*virtualbox
+*virtualbox-host-dkms
+*intel-uncode
+*mesa
 
-iwd 
-networkmanager
-wpa_supplicant
-wireless_tools
-netctl
-net-tools
-arch-audit
+*iwd 
+*networkmanager
+*network-manager-applet
+*wpa_supplicant
+*netctl
+*net-tools
+*arch-audit
 
-lightdm
-lightdm-gtk-greeter
-gnome-shell
+*xorg-server
+*lightdm
+*lightdm-gtk-greeter
+*gnome-shell
 
-docker
-git
+*docker
+*git
+
+## Services to Enable
+
+*systemctl enable NetworkManager
+
+## Adjustments to Configuration Files
+
+*/etc/mkinitcpio.conf (to enable lvm)
+*/etc/locale.gen
+
+## Install yay
+
 
 ## Packages to install with yay
 
@@ -46,7 +70,7 @@ neofetch
 nautilus 
 material-shell: yay -S gnome-shell-extension-material-shell-git
 
-- Packages to install from git
+## Packages to install from git
 ulauncher: git clone https://aur.archlinux.org/ulauncher.git && cd ulauncher && makepkg -is
 
 
