@@ -2,6 +2,9 @@
 
 https://wiki.learnlinux.tv/index.php/How_to_Install_Arch_Linux_on_LVM
 
+## Notes Pre-Install
+* After update distribution, add server manually to mirror list (https://archlinux.org/mirrorlist/)
+
 ## Packages
 
 Packages to download using pacman: 
@@ -71,6 +74,8 @@ Packages to download using pacman:
 * systemctl enable cups
 * systemctl enable gdm
 
+## Notes Post-Install
+* Currently a bug in gnome where you have to go to settings and select the language manually or else the terminal will not work
 
 ## Install yay
 
