@@ -60,7 +60,7 @@ Packages to download using pacman:
  
 ## Adjustments to Configuration Files
 
-* /etc/mkinitcpio.conf (to enable lvm)
+* /etc/mkinitcpio.conf (to enable lvm2)
 * /etc/locale.gen
 
 ## Services to Enable
