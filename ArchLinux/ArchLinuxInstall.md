@@ -47,15 +47,15 @@ Packages to download using pacman:
   inetutils
 
 * GUI
- * xorg
+  * xorg
   gdm
   gnome
 
-
-* docker
-git
-firefox
- arch-audit
+* Additional Components
+  * docker
+  git
+  firefox
+  arch-audit
 
 ## Services to Enable
 
