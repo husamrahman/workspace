@@ -57,7 +57,12 @@ Packages to download using pacman:
   git
   firefox
   arch-audit
-  
+ 
+## Adjustments to Configuration Files
+
+* /etc/mkinitcpio.conf (to enable lvm)
+* /etc/locale.gen
+
 ## Services to Enable
 
 * systemctl enable NetworkManager
@@ -65,10 +70,6 @@ Packages to download using pacman:
 * systemctl enable cups
 * systemctl enable gdm
 
-## Adjustments to Configuration Files
-
-* /etc/mkinitcpio.conf (to enable lvm)
-* /etc/locale.gen
 
 ## Install yay
 
