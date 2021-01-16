@@ -6,33 +6,35 @@ https://wiki.learnlinux.tv/index.php/How_to_Install_Arch_Linux_on_LVM
 
 Packages to download using pacman: 
 
+linux
 linux-headers 
 linux-lts
 linux-lts-headers 
 
 grub
+efibootmgr
 nano
-git
 base-devel 
+bluez
+bluez-utils
 
 virtualbox
 virtualbox-host-dkms
 
 iwd 
 networkmanager
-
-
-lightdm
-lightdm-gtk-greeter
-
-gnome-shell
-#gnome
-#gnome-control-center
-
+wpa_supplicant
+wireless_tools
+netctl
 net-tools
 arch-audit
 
+lightdm
+lightdm-gtk-greeter
+gnome-shell
+
 docker
+git
 
 ## Packages to install with yay
 
