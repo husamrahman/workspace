@@ -55,6 +55,7 @@ Packages to download using pacman:
   * xorg
   gdm
   gnome
+  gone-tweaks
 
 * Additional Components
   * docker
