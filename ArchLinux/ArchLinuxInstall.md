@@ -56,18 +56,18 @@ Packages to download using pacman:
   git
   firefox
   arch-audit
-
+  
 ## Services to Enable
 
-*systemctl enable NetworkManager
-*systemctl enable bluetooth
-*systemctl enable cups
-*systemctl enable gdm
+* systemctl enable NetworkManager
+* systemctl enable bluetooth
+* systemctl enable cups
+* systemctl enable gdm
 
 ## Adjustments to Configuration Files
 
-*/etc/mkinitcpio.conf (to enable lvm)
-*/etc/locale.gen
+* /etc/mkinitcpio.conf (to enable lvm)
+* /etc/locale.gen
 
 ## Install yay
 
@@ -76,29 +76,31 @@ Packages to download using pacman:
 3. makepkg -si PKGBUILD
 
 ## Primary UI
-*material-shell: yay -S gnome-shell-extension-material-shell-git
-*theme: yay -S palata-theme
-*icons: yay -S tela-icons
+* material-shell: yay -S gnome-shell-extension-material-shell-git
+* theme: yay -S palata-theme
+* icons: yay -S tela-icons
 
+## Packages to install from git
+* ulauncher: git clone https://aur.archlinux.org/ulauncher.git && cd ulauncher && makepkg -is
+* timeshift: git clone https://aur.archlinux.org/timeshift.git && cd timeshift && makepkg -is
 
 ## Packages to install with yay
 
-google-chrome
-vscode
-stacer
-vlc
-neofetch
-nautilus 
+* google-chrome
+* vscode
+* stacer
+* vlc
+* neofetch
+* nautilus 
 
-## Packages to install from git
-ulauncher: git clone https://aur.archlinux.org/ulauncher.git && cd ulauncher && makepkg -is
+## Additional Configurations
 
+* Configure timeshift to backup every week
 
-## Additional things to install
+## Additional things to install (work in progress)
 Python
 R
 Rstudio
 airflow
 
-## Additional Configurations
-* Configure timeshift to backup every week
+
