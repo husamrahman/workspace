@@ -36,7 +36,7 @@ Packages to download using pacman:
   xf86-video-vmware
   virtualbox
   virtualbox-host-dkms
-  intel-uncode
+  intel-ucode
   mesa
   iwd 
   networkmanager
@@ -45,6 +45,7 @@ Packages to download using pacman:
   netctl
   net-tools
   inetutils
+  openssh
 
 * GUI
   * xorg
