@@ -76,6 +76,7 @@ Packages to download using pacman:
 
 1. git clone https://aur-archlinux.org/yay.git
 2. cd yay/
+3. sudo chown -R {user} /home/{user}/yay
 3. makepkg -si PKGBUILD
 
 ## Primary UI
