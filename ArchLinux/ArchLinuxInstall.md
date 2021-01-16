@@ -88,7 +88,7 @@ Packages to download using pacman:
 ## Primary UI
 * material-shell: yay -S gnome-shell-extension-material-shell-git
 * theme: yay -S plata-theme
-* icons: yay -S tela-icons
+* icons: yay -S tela-icon-theme-git
 
 ## Packages to install from git
 * ulauncher: git clone https://aur.archlinux.org/ulauncher.git && cd ulauncher && makepkg -is
