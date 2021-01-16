@@ -13,49 +13,49 @@ Packages to download using pacman:
   linux-lts-headers 
   lvm2
 
-* grub
-efibootmgr
-dosfstools
-os-prober
-mtools
-nano
-dialog
-base-devel 
-reflector
-bluez
-bluez-utils
-cups
-hplip
-xdg-utils
-xdg-user-dirs
-pulseaudio
-pulseaudio-bluetooth
+* Drivers
+ * grub
+ efibootmgr
+ dosfstools
+ os-prober
+ mtools
+ nano
+ dialog
+ base-devel 
+ reflector
+ bluez
+ bluez-utils
+ cups
+ hplip
+ xdg-utils
+ xdg-user-dirs
+ pulseaudio
+ pulseaudio-bluetooth
+ xf86-video-intel
+ virtualbox-guest-utils
+ xf86-video-vmware
+ virtualbox
+ virtualbox-host-dkms
+ intel-uncode
+ mesa
+ iwd 
+ networkmanager
+ network-manager-applet
+ wpa_supplicant
+ netctl
+ net-tools
+ inetutils
 
-* xf86-video-intel
-virtualbox-guest-utils
-xf86-video-vmware
-virtualbox
-virtualbox-host-dkms
-intel-uncode
-mesa
-
-* iwd 
-networkmanager
-network-manager-applet
-wpa_supplicant
-netctl
-net-tools
-inetutils
-arch-audit
-
-* xorg
-gdm
-gnome
+* GUI
+ * xorg
+  gdm
+  gnome
 
 
 * docker
 git
 firefox
+ arch-audit
 
 ## Services to Enable
 
