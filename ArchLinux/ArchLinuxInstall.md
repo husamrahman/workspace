@@ -85,17 +85,15 @@ Packages to download using pacman:
 3. sudo chown -R {user} /home/{user}/yay
 4. makepkg -si PKGBUILD
 
-## Install snapd
-
-1. git clone https://aur.archlinux.org/snapd.git
-2. cd snapd/
-3. makepkg -si PKGBUILD
-4. sudo systemctl enable --now snapd.socket
 
 ## Primary UI
 * material-shell: yay -S gnome-shell-extension-material-shell-git
 * theme: yay -S plata-theme
-* tela icons: sudo ln -s /var/lib/snapd/snap /snap
+* tela icons: 
+  1. git clone https://github.com/vinceliuice/Tela-icon-theme.git
+  2. sudo -s
+  3. cd tela-icon-theme
+  3. ./install.sh -d /usr/share/icons
 
 ## Packages to install from git
 * ulauncher: git clone https://aur.archlinux.org/ulauncher.git && cd ulauncher && makepkg -is
