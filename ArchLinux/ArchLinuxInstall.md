@@ -81,7 +81,7 @@ Packages to download using pacman:
 
 ## Primary UI
 * material-shell: yay -S gnome-shell-extension-material-shell-git
-* theme: yay -S palata-theme
+* theme: yay -S plata-theme
 * icons: yay -S tela-icons
 
 ## Packages to install from git
