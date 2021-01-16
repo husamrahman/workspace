@@ -12,7 +12,7 @@ linux-lts
 linux-lts-headers 
 lvm2
 
-*grub
+* grub
 efibootmgr
 dosfstools
 os-prober
