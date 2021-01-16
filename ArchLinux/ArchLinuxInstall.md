@@ -6,12 +6,12 @@ https://wiki.learnlinux.tv/index.php/How_to_Install_Arch_Linux_on_LVM
 
 Packages to download using pacman: 
 
-Core
-*linux
-linux-headers 
-linux-lts
-linux-lts-headers 
-lvm2
+* Core
+  *linux
+  linux-headers 
+  linux-lts
+  linux-lts-headers 
+  lvm2
 
 * grub
 efibootmgr
