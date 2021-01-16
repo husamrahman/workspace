@@ -3,7 +3,7 @@
 https://wiki.learnlinux.tv/index.php/How_to_Install_Arch_Linux_on_LVM
 
 ## Notes Pre-Install
-* After update distribution, add server manually to mirror list (https://archlinux.org/mirrorlist/)
+* After updating the distribution, add server manually to mirror list (https://archlinux.org/mirrorlist/)
 
 ## Packages
 
