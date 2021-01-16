@@ -2,7 +2,7 @@
 
 https://wiki.learnlinux.tv/index.php/How_to_Install_Arch_Linux_on_LVM
 
-## Linux Packages
+## Packages
 
 Packages to download using pacman: 
 
@@ -30,7 +30,8 @@ xdg-user-dirs
 pulseaudio
 pulseaudio-bluetooth
 
-*virtualbox-guest-utils
+*xf86-video-intel
+virtualbox-guest-utils
 xf86-video-vmware
 virtualbox
 virtualbox-host-dkms
@@ -46,18 +47,21 @@ net-tools
 inetutils
 arch-audit
 
-*xorg-server
-lightdm
-lightdm-gtk-greeter
-gnome-shell
+*xorg
+gdm
+gnome
+
 
 *docker
 git
+firefox
 
 ## Services to Enable
 
 *systemctl enable NetworkManager
 *systemctl enable bluetooth
+*systemctl enable cups
+*systemctl enable gdm
 
 ## Adjustments to Configuration Files
 
@@ -66,26 +70,34 @@ git
 
 ## Install yay
 
+1. git clone https://aur-archlinux.org/yay
+2. cd yay/
+3. makepkg -si PKGBUILD
+
+## Primary UI
+*material-shell: yay -S gnome-shell-extension-material-shell-git
+*theme: yay -S palata-theme
+*icons: yay -S tela-icons
+
 
 ## Packages to install with yay
 
-google chrome
+google-chrome
 vscode
 stacer
 vlc
 neofetch
 nautilus 
-material-shell: yay -S gnome-shell-extension-material-shell-git
 
 ## Packages to install from git
 ulauncher: git clone https://aur.archlinux.org/ulauncher.git && cd ulauncher && makepkg -is
 
 
-- Additional things to install
+## Additional things to install
 Python
 R
 Rstudio
 airflow
 
-- Configurations
+## Additional Configurations
 * Configure timeshift to backup every week
