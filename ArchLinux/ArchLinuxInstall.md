@@ -13,44 +13,51 @@ linux-lts-headers
 lvm2
 
 *grub
-*efibootmgr
-*dosfstools
-*os-prober
-*mtools
-*nano
-*dialog
-*base-devel 
-*bluez
-*bluez-utils
-*pulseaudio
-*pulseaudio-bluetooth
+efibootmgr
+dosfstools
+os-prober
+mtools
+nano
+dialog
+base-devel 
+reflector
+bluez
+bluez-utils
+cups
+hplip
+xdg-utils
+xdg-user-dirs
+pulseaudio
+pulseaudio-bluetooth
 
 *virtualbox-guest-utils
-*xf86-video-vmware
-*virtualbox
-*virtualbox-host-dkms
-*intel-uncode
-*mesa
+xf86-video-vmware
+virtualbox
+virtualbox-host-dkms
+intel-uncode
+mesa
 
 *iwd 
-*networkmanager
-*network-manager-applet
-*wpa_supplicant
-*netctl
-*net-tools
-*arch-audit
+networkmanager
+network-manager-applet
+wpa_supplicant
+netctl
+net-tools
+inetutils
+arch-audit
 
 *xorg-server
-*lightdm
-*lightdm-gtk-greeter
-*gnome-shell
+lightdm
+lightdm-gtk-greeter
+gnome-shell
 
 *docker
-*git
+git
 
 ## Services to Enable
 
 *systemctl enable NetworkManager
+*systemctl enable bluetooth
 
 ## Adjustments to Configuration Files
 
