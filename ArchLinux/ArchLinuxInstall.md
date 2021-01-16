@@ -6,6 +6,7 @@ https://wiki.learnlinux.tv/index.php/How_to_Install_Arch_Linux_on_LVM
 
 Packages to download using pacman: 
 
+Core
 *linux
 linux-headers 
 linux-lts
@@ -30,7 +31,7 @@ xdg-user-dirs
 pulseaudio
 pulseaudio-bluetooth
 
-*xf86-video-intel
+* xf86-video-intel
 virtualbox-guest-utils
 xf86-video-vmware
 virtualbox
@@ -38,7 +39,7 @@ virtualbox-host-dkms
 intel-uncode
 mesa
 
-*iwd 
+* iwd 
 networkmanager
 network-manager-applet
 wpa_supplicant
@@ -47,12 +48,12 @@ net-tools
 inetutils
 arch-audit
 
-*xorg
+* xorg
 gdm
 gnome
 
 
-*docker
+* docker
 git
 firefox
 
