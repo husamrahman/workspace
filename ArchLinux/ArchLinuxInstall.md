@@ -9,6 +9,7 @@ Packages to download using pacman:
 * Core
   * linux
   linux-headers 
+  linux-firmware
   linux-lts
   linux-lts-headers 
   lvm2
