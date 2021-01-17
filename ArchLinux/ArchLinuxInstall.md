@@ -118,7 +118,9 @@ Packages to download using pacman:
 * Chrome Extensions:
   * Momentum
   * Lastpass
-* Flameshot keyboard shortcut: CTRL + S
+* Flameshot keyboard shortcut:
+  * Command: flameshot gui
+  * Keyboard: CTRL + S
 
 ## Additional things to install (work in progress)
 Python
