@@ -66,6 +66,7 @@ Packages to download using pacman:
   zoom
   flameshot
   ms-office-online
+  spotify
  
 ## Adjustments to Configuration Files
 
