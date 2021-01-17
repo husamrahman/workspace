@@ -75,7 +75,7 @@ Packages to download using pacman:
 * systemctl enable bluetooth
 * systemctl enable cups
 * systemctl enable gdm
-* systemctl enable displaylink.service
+* systemctl enable displaylink
 
 ## Notes Post-Install
 * Currently a bug in gnome where you have to go to settings and select the language manually or else the terminal will not work
