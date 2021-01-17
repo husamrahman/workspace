@@ -113,6 +113,9 @@ Packages to download using pacman:
 ## Additional Configurations
 
 * Configure timeshift to backup every week
+* Chrome Extensions:
+  * Momentum
+  * Lastpass
 
 ## Additional things to install (work in progress)
 Python
