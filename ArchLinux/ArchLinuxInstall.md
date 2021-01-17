@@ -101,7 +101,7 @@ Packages to download using pacman:
 ## Packages to install with yay
 
 * google-chrome
-* vscode
+* visual-studio-code-bin
 * stacer
 * vlc
 * neofetch
