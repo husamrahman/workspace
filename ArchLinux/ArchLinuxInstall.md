@@ -56,7 +56,6 @@ Packages to download using pacman:
   gdm
   gnome
   gnome-tweaks
-  redshift
 
 * Additional Components
   * docker
