@@ -45,7 +45,6 @@ Packages to download using pacman:
   iwd 
   networkmanager
   network-manager-applet
-  wpa_supplicant
   netctl
   net-tools
   inetutils
@@ -55,7 +54,7 @@ Packages to download using pacman:
   * xorg
   gdm
   gnome
-  gone-tweaks
+  gnome-tweaks
 
 * Additional Components
   * docker
@@ -80,7 +79,7 @@ Packages to download using pacman:
 
 ## Install yay
 
-1. git clone https://aur-archlinux.org/yay.git
+1. git clone https://aur.archlinux.org/yay.git
 2. cd yay/
 3. sudo chown -R {user} /home/{user}/yay
 4. makepkg -si PKGBUILD
