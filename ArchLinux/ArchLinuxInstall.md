@@ -49,6 +49,7 @@ Packages to download using pacman:
   net-tools
   inetutils
   openssh
+  xorg-apps
 
 * GUI
   * xorg
@@ -79,10 +80,10 @@ Packages to download using pacman:
 
 ## Install yay
 
-1. git clone https://aur.archlinux.org/yay.git
-2. cd yay/
-3. sudo chown -R {user} /home/{user}/yay
-4. makepkg -si PKGBUILD
+1. mkdir /home/programs
+2. sudo chown -R {user} /home/programs
+3. cd /home/programs
+4. git clone https://aur.archlinux.org/yay.git && cd yay && && makepkg -si PKGBUILD
 
 
 ## Primary UI
