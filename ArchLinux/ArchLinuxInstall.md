@@ -65,6 +65,7 @@ Packages to download using pacman:
   arch-audit
   zoom
   flameshot
+  ms-office-online
  
 ## Adjustments to Configuration Files
 
