@@ -56,6 +56,7 @@ Packages to download using pacman:
   gdm
   gnome
   gnome-tweaks
+  xflux
 
 * Additional Components
   * docker
