@@ -56,7 +56,7 @@ Packages to download using pacman:
   gdm
   gnome
   gnome-tweaks
-  fluxgui
+  redshift
 
 * Additional Components
   * docker
