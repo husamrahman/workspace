@@ -63,6 +63,8 @@ Packages to download using pacman:
   git
   firefox
   arch-audit
+  zoom
+  flameshot
  
 ## Adjustments to Configuration Files
 
@@ -116,6 +118,7 @@ Packages to download using pacman:
 * Chrome Extensions:
   * Momentum
   * Lastpass
+* Flameshot keyboard shortcut: CTRL + S
 
 ## Additional things to install (work in progress)
 Python
