@@ -54,6 +54,7 @@ Packages to download using pacman:
   xorg-apps
   displaylink
   avahi
+  wget
 
 * GUI
   * xorg
