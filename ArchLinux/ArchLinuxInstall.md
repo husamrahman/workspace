@@ -53,6 +53,7 @@ Packages to download using pacman:
   openssh
   xorg-apps
   displaylink
+  avahi
 
 * GUI
   * xorg
