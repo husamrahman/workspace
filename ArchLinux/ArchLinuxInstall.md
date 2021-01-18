@@ -89,8 +89,8 @@ Packages to download using pacman:
 
 ## Install yay
 
-1. mkdir /home/programs
-2. sudo chown -R {user} /home/programs
+1.udo chown -R {user} /home
+2. mkdir /home/programs
 3. cd /home/programs
 4. git clone https://aur.archlinux.org/yay.git && cd yay && && makepkg -si PKGBUILD
 
