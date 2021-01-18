@@ -92,10 +92,10 @@ Packages to download using pacman:
 1.udo chown -R {user} /home
 2. mkdir /home/programs
 3. cd /home/programs
-4. git clone https://aur.archlinux.org/yay.git && cd yay && && makepkg -si PKGBUILD
+4. git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si PKGBUILD
 
 
-## Primary UI
+## Primary UI a
 * material-shell: yay -S gnome-shell-extension-material-shell-git
 * theme: yay -S plata-theme
 * tela icons: 
