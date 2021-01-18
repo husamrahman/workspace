@@ -101,7 +101,7 @@ Packages to download using pacman:
 * tela icons: 
   1. git clone https://github.com/vinceliuice/Tela-icon-theme.git
   2. sudo -s
-  3. cd tela-icon-theme
+  3. cd Tela-icon-theme
   3. ./install.sh -d /usr/share/icons
 
 ## Packages to install from git
