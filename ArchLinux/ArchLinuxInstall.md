@@ -52,7 +52,6 @@ Packages to download using pacman:
   inetutils
   openssh
   xorg-apps
-  displaylink
   avahi
   wget
 
@@ -69,8 +68,6 @@ Packages to download using pacman:
   arch-audit
   zoom
   flameshot
-  ms-office-online
-  spotify
 
  
 ## Adjustments to Configuration Files
@@ -119,6 +116,10 @@ Packages to download using pacman:
 * vlc
 * neofetch
 * nautilus 
+* displaylink
+* ms-office-online
+* spotify
+* zoom
 
 ## Additional Configurations
 
