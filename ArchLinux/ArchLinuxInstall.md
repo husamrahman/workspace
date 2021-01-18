@@ -31,6 +31,7 @@ Packages to download using pacman:
   bluez
   bluez-utils
   cups
+  cups-pdf
   hplip
   xdg-utils
   xdg-user-dirs
