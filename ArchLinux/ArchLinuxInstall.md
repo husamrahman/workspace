@@ -85,6 +85,7 @@ Packages to download using pacman:
 * systemctl enable cups
 * systemctl enable gdm
 * systemctl enable displaylink
+* systemctl enable sshd
 
 ## Notes Post-Install
 * Currently a bug in gnome where you have to go to settings and select the language manually or else the terminal will not work
