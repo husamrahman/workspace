@@ -75,13 +75,12 @@ Packages to download using pacman:
 * /etc/mkinitcpio.conf (to enable lvm2)
 * /etc/locale.gen
 
-## Services to Enable
+## Services to enable during install
 
 * systemctl enable NetworkManager
 * systemctl enable bluetooth
 * systemctl enable cups
 * systemctl enable gdm
-* systemctl enable displaylink
 * systemctl enable sshd
 
 ## Notes Post-Install
@@ -120,6 +119,9 @@ Packages to download using pacman:
 * ms-office-online
 * spotify
 * zoom
+
+## Services to enable after install
+* systemctl enable displaylink
 
 ## Additional Configurations
 
