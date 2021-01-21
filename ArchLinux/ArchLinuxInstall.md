@@ -125,7 +125,9 @@ Packages to download using pacman:
 * systemctl enable displaylink
 
 ## Permissions after install
-* sudo usermod -a -G docker {user}
+* Add users to docker group
+  1. sudo usermod -a -G docker {user}
+  2. restart machine
 
 ## Additional Configurations
 
