@@ -119,9 +119,13 @@ Packages to download using pacman:
 * ms-office-online
 * spotify
 * zoom
+* python37
 
 ## Services to enable after install
 * systemctl enable displaylink
+
+## Permissions after install
+* sudo usermod -a -G docker {user}
 
 ## Additional Configurations
 
@@ -134,7 +138,6 @@ Packages to download using pacman:
   * Keyboard: CTRL + S
 
 ## Additional things to install (work in progress)
-Python
 R
 Rstudio
 airflow
