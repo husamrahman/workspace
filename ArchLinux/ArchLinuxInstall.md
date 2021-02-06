@@ -68,6 +68,8 @@ Packages to download using pacman:
   arch-audit
   zoom
   flameshot
+  node
+  nvm
 
  
 ## Adjustments to Configuration Files
