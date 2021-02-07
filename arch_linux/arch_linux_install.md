@@ -76,6 +76,11 @@ Packages to download using pacman:
 
 * /etc/mkinitcpio.conf (to enable lvm2)
 * /etc/locale.gen
+* If using an intel processor, you might need to adjust the grub config to avoid the freezing issues (bug in kernel)
+  - sudo nano /etc/default/grub
+  - Add "intel_idle.max_cstate=1" under GRUB_CMDLINE_LINUX_DEFAULT
+  - Update grub: sudo grub-mkconfig -o /boot/grub/grub.cfg
+  - Restart the system
 
 ## Services to enable during install
 
