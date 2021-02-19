@@ -101,8 +101,8 @@ Packages to download using pacman:
 4. git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si PKGBUILD
 
 
-## Primary UI a
-* material-shell: yay -S gnome-shell-extension-material-shell-git
+## Primary UI
+* material-shell: 	git clone https://github.com/material-shell/material-shell.git && cd material-shell && make install
 * theme: yay -S plata-theme
 * tela icons: 
   1. git clone https://github.com/vinceliuice/Tela-icon-theme.git
