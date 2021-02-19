@@ -102,7 +102,7 @@ Packages to download using pacman:
 
 
 ## Primary UI
-* material-shell: 	git clone https://github.com/material-shell/material-shell.git && cd material-shell && make install
+* material-shell: 	yay -S gnome-shell-extension-material-shell
 * theme: yay -S plata-theme
 * tela icons: 
   1. git clone https://github.com/vinceliuice/Tela-icon-theme.git
