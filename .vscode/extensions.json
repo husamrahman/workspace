@@ -18,16 +18,16 @@
 		,"gruntfuggly.todo-tree"
 		,"shardulm94.trailing-spaces"
 		,"vscode-icons-team.vscode-icons"
-		,"auto-rename-tag"
-		,"RelativePath"
-		,"prettier-vscode"
-		,"htmltagwrap"
-		,"markdown-preview-enhanced"
-		,"polacode"
-		,"vscode-css-peek"
-		,"turbo-console-log"
-		,"simple-react-snippets"
-		,"snippet-creator"
+		,"formulahendry.auto-rename-tag"
+		,"jakob101.RelativePath
+		,"esbenp.prettier-vscode
+		,"bradgashler.htmltagwrap"
+		,"shd101wyy.markdown-preview-enhanced
+		,"pnp.polacode"
+		,"pranaygp.vscode-css-peek"
+		,"ChakrounAnas.turbo-console-log"
+		,"burkeholland.simple-react-snippets"
+		,"ryanolsonx.snippet-creator"
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
 	"unwantedRecommendations": [
