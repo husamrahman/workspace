@@ -29,6 +29,7 @@
 		,"burkeholland.simple-react-snippets"
 		,"ryanolsonx.snippet-creator"
 		,"zhuangtongfa.material-theme"
+		,"wallabyjs.quokka-vscode"
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
 	"unwantedRecommendations": [
