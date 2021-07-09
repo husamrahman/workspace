@@ -127,6 +127,7 @@ Packages to download using pacman:
 * spotify
 * zoom
 * python37
+* figma
 
 ## Services to enable after install
 * systemctl enable displaylink
