@@ -8,4 +8,8 @@
     "editor.minimap.enabled": false,
     "git.ignoreLimitWarning": true,
     "jupyter.textOutputLimit": 0,
+    
+     "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
 }
