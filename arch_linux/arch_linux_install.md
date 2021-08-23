@@ -113,6 +113,7 @@ Packages to download using pacman:
 ## Packages to install from git
 * ulauncher: git clone https://aur.archlinux.org/ulauncher.git && cd ulauncher && makepkg -is
 * timeshift: git clone https://aur.archlinux.org/timeshift.git && cd timeshift && makepkg -is
+* bash-it: https://bash-it.readthedocs.io/en/latest/installation/
 
 ## Packages to install with yay
 
