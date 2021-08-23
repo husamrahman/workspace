@@ -1,14 +1,17 @@
 {
+    // DS specific
     "jupyter.sendSelectionToInteractiveWindow":  true,
+    "jupyter.textOutputLimit": 0,
     "python.dataScience.sendSelectionToInteractiveWindow": true,
     "python.linting.enabled": false,
+    
+    // Editor specific settings
     "editor.showFoldingControls": "always",
     "editor.folding": true,
     "editor.foldingStrategy": "indentation",
     "editor.minimap.enabled": false,
-    "git.ignoreLimitWarning": true,
-    "jupyter.textOutputLimit": 0,
     
+    // Linting
      "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
     },
