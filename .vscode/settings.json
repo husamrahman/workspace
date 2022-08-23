@@ -1,18 +1,52 @@
 {
-    // DS specific
-    "jupyter.sendSelectionToInteractiveWindow":  true,
-    "jupyter.textOutputLimit": 0,
-    "python.dataScience.sendSelectionToInteractiveWindow": true,
-    "python.linting.enabled": false,
-    
-    // Editor specific settings
-    "editor.showFoldingControls": "always",
-    "editor.folding": true,
-    "editor.foldingStrategy": "indentation",
+    "cSpell.words": [
+        "bbox",
+        "beiytak",
+        "bunynan",
+        "camelcase",
+        "clsx",
+        "codegen",
+        "craco",
+        "dbscan",
+        "deletable",
+        "favorited",
+        "fluentd",
+        "formik",
+        "geocode",
+        "geocoded",
+        "graphql",
+        "immer",
+        "inputtype",
+        "jsx",
+        "locationbias",
+        "lottiefiles",
+        "mapbox",
+        "mapboxgl",
+        "multilines",
+        "nowrap",
+        "ormconfig",
+        "Overridable",
+        "pearland",
+        "persistor",
+        "predev",
+        "prestart",
+        "rapidapi",
+        "react",
+        "reduxjs",
+        "serializers",
+        "sqft",
+        "textquery",
+        "tidyjs",
+        "typescript",
+        "upsert",
+        "uuidv",
+        "wrap"
+    ],
+
     "editor.minimap.enabled": false,
-    
-    // Linting
-     "editor.codeActionsOnSave": {
+    "terminal.integrated.scrollback": 100000,
+
+    "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
     },
 }
